@@ -1,15 +1,11 @@
-def is_armstrong_number(self):
+def is_armstrong(number):
 
-    order = len(str(self))
+    a = str(number)
     sum = 0
-    temp = self
+    for i in a:
+        sum += int(i) ** len(a)
 
-    while temp >= 0:
-        digit = temp % 10
-        sum += digit ** order
-        temp //= 10
-
-        if self == sum:
-            return True
-        else:
-            return False
+    if sum == number:
+        return True
+    else:
+        return False
