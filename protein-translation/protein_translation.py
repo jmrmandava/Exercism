@@ -20,7 +20,7 @@ def proteins(x):
     }
     protein_lis = []
     for i in range(0, len(x), 3):
-        protein = y[x[i : i + 3]]
+        protein = y[x[i: i + 3]]
         if protein == "STOP":
             break
         protein_lis.append(protein)
