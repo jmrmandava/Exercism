@@ -1,4 +1,4 @@
-a = [
+x = [
     "black",
     "brown",
     "red",
@@ -13,8 +13,8 @@ a = [
 
 
 def color_code(color):
-    return a.index(color)
+    return x.index(color)
 
 
 def colors():
-    return a
+    return x
