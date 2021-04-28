@@ -11,9 +11,3 @@ a = {'Black': 0,
 
 
 def value(color):
-    if color == ['brown', 'black']:
-        return (a.get('Brown'+'Black'))
-    if color == "white":
-        return (a.get('White'))
-    if color == "orange":
-        return (a.get('Orange'))
